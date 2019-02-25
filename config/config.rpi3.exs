@@ -13,7 +13,7 @@ config :brewer_ui, :viewport, %{
     %{
       module: Scenic.Driver.Nerves.Touch,
       opts: [
-        device: "FT5406 memory based driver",
+        device: "ILITEK Multi-Touch-V3000",
         calibration: {{1, 0, 0}, {1, 0, 0}}
       ]
     }
